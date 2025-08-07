@@ -1,0 +1,168 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CABEÇALHO*/
+.fundo {
+    background-image: linear-gradient(lightgreen, rgb(0, 104, 0));
+}
+
+#cabeça {
+    text-align: center;
+    padding: 2rem;
+}
+
+#menu {
+    padding: 1rem;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-radius: 8px 8px 0 0;
+    padding: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+nav#menu a:hover {
+    background-color: rgb(0, 82, 0);
+    border-radius: 8px 8px 0 0;
+    transition: 0.2s;
+}
+
+header {
+    color: white;
+    font-family: sans-serif
+}
+
+header div#cabeça h3 {
+    padding: 1rem 1rem 0rem 1rem;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px black;
+}
+
+header div#cabeça h1 {
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+}
+/**/
+
+
+/*MAIN*/
+main {
+    background-color: rgba(200, 255, 200, 0.5);
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0px 10px 20px 0px #0000004d;
+    border-radius: 0 0 8px 8px;
+}
+
+main div p {
+    font-family: sans-serif;
+    padding: 2rem;
+    text-align: left;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main div.card h1, h2 {
+    color: rgb(0, 104, 0);
+    text-align: left;
+    font-family: android;
+}
+
+main div.card h2 {
+    padding: 0.5rem;
+}
+
+.sub {
+    background-image: linear-gradient(150deg, rgba(200, 255, 200, 0.5), white);
+}
+
+span#irina a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(135, 255, 135);
+    font-weight: bold;
+}
+
+span#irina a::after {
+    content: ' 🔗';
+}
+
+span#dan a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(135, 255, 135);
+    font-weight: bold;
+}
+
+span#dan a::after {
+    content: ' 🔗';
+}
+
+span#ink a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(135, 255, 135);
+    font-weight: bold;
+}
+
+span#ink a::after {
+    content: ' 🔗';
+}
+
+#video {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#goog {
+    font-weight: bold;
+    color: green;
+}
+
+#and {
+    font-weight: bold;
+    color: green;
+}
+
+#copy {
+    margin-top: 3rem;
+    background-color: green;
+    color: white;
+}
+
